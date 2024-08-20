@@ -2,8 +2,9 @@
   font-family: Arial;
   font-size: 2em;
  }
- .navbar ol{
+ .navbar ul{
     list-style-type: none;
+    text-align: center;
     background-color: hsl(0, 0%, 5%);  
     padding: 0px;
     margin: 0px;
@@ -20,5 +21,8 @@
   background-color: hsl(0, 0%, 10%);
  }
  .navbar li{
-    float: inline-start;
+    display:inline-block;
+ }
+ div.button{
+   text-align: center;
  }

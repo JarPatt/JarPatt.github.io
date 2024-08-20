@@ -27,18 +27,54 @@ Alexandre Debiève */
 
   }
   .tldr {
+    padding-top: 2.5%;
+    padding-bottom: 5%;
     font-family: Arial;
   }
   .tldr h1{
-    margin-top: 2%;
     text-align: center;
-    font-size: 4em;
+    font-size: 3em;
     color: rgb(25, 25, 25);
   }
   .tldr p{
     text-align:justify;
-    font-size: 2em;
+    font-size: 1.5em;
     color: rgb(25, 25, 25);
     margin-left: 12%;
     margin-right: 12%;
   }
+.skills {
+  color: white;
+  list-style-type: none;
+  text-align: center;
+  background-color: skyblue;  
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+.skills i{
+  color:skyblue;
+  font-size: 8em;
+  background-color: white;
+}
+.skills ul{
+  list-style-type: none;
+  text-align: center;
+  background-color: skyblue;  
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+.skills p{
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+.skills p:hover{
+background-color: hsl(0, 0%, 10%);
+}
+.skills li{
+  display:inline-block;
+}
