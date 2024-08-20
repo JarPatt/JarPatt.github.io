@@ -1,0 +1,24 @@
+ .navbar {
+  font-family: Arial;
+  font-size: .5em;
+ }
+ .navbar ol{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 5%);  
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+  }
+ .navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+ }
+ .navbar a:hover{
+  background-color: hsl(0, 0%, 10%);
+ }
+ .navbar li{
+    float: inline-start;
+ }

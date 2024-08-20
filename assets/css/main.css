@@ -1,41 +1,28 @@
 body {
     background-color: black;
+    margin: 0px;
 }
-
-div {
+.inner {
     /* Image used - https://unsplash.com/photos/macro-photography-of-black-circuit-board-FO7JIlwjOtU (macro photography of black circuit board by 
 Alexandre Debiève */
     background-image: url("images/w1.jpg");
-    background-color: black;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 
-    padding-top:10%;
-    padding-bottom:10%;
+    padding-top:2.5%;
+    padding-bottom:20%;
+    font-family: Arial;
   }
-  .navbar ul{
-    list-style-type: none;
-    background-color: lightblue;
-    padding: 0px;
-    margin: 0px;
-  }
- .navbar a{
-    color: white;
-    text-decoration: no;
-    padding: 15px;
-    display: block;
- }
- .navbar li{
-    float: left;
- }
   .inner h1 {
     color: lightblue;
     text-align: center;
     font-size: 2.5em;
   }
   .inner p {
-    color: white;
-    margin: left 20px;
+    color:white;
+    font-size:.75em;
+    margin-top: -30px;
     text-align: center;
+
   }
