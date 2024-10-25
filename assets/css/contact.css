@@ -1,0 +1,23 @@
+.bottom {
+    padding-bottom:1.5%;
+    text-align: center;
+  }
+  .circle{
+    Height: 100px;
+    Width: 100px;
+    Border: 1px solid;
+    background-color: white;
+    border-radius: 50%;
+    color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+  }
+  .center{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }

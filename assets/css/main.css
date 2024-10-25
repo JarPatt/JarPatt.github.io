@@ -58,9 +58,17 @@ Alexandre Debiève */
   padding-bottom: 2%;
 }
 .skills i{
-  color:skyblue;
-  font-size: 8em;
+  Height: 2em;
+  Width: 2em;
+  Border: 1px solid;
   background-color: white;
+  border-radius: 50%;
+  color: skyblue;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 6em;
+  text-align:center;
 }
 .skills ul{
   list-style-type: none;
@@ -78,13 +86,27 @@ Alexandre Debiève */
   text-align: center;
 }
 .skills p:hover{
-background-color: hsl(0, 0%, 10%);
+background-color: lightblue;
+color:white;
 }
 .skills li{
   display:inline-block;
 }
-.bottom {
-  padding-top:5%;
-  padding-bottom:1.5%;
+.incomplete{
+  padding-top:12.5%;
+  font-family: Arial;
+  color: orangered;
   text-align: center;
+  font-size:2em;
+}
+.incomplete i{
+  color: orange;
+  text-align: center;
+  font-size:3em;
+}
+.incomplete p{
+  color: black;
+  font-family: Arial;
+  text-align: center;
+  font-size:1em;
 }
